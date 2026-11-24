@@ -1,0 +1,25 @@
+# raw and large data
+data/*.pkl
+data/**/*.pkl
+data/*.csv
+data/**/*.csv
+!data/README.md
+
+# generated outputs
+figures/
+outputs/
+*.pdf
+*.png
+!results/**/*.csv
+
+# caches
+*_cache/
+**/__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
